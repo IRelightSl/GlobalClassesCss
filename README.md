@@ -1,5 +1,11 @@
-Global Classes.css is a file that contains class templates that can be used directly in your HTML file. It is directly editable and you can adapt it to your website.
+# GlobalClasses.css
 
-by IRelightSl.
+GlobalClasses.css is a collection of reusable CSS classes that can be used directly in your HTML files.
 
-MIT Liscence
+The file is fully editable, so you can modify and adapt the classes to fit your own website or project.
+
+Created by **IRelightSl**.
+
+## License
+
+This project is licensed under the **MIT License**.
