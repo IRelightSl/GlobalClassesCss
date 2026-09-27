@@ -1,0 +1,259 @@
+/* =========================
+   SIZES
+   ========================= */
+
+.bigText {
+    font-size: 50px;
+}
+
+.mediumText {
+    font-size: 35px;
+}
+
+.smallText {
+    font-size: 20px;
+}
+
+
+/* =========================
+   TEXT COLORS
+   ========================= */
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.pink {
+    color: pink;
+}
+
+
+/* =========================
+   FONT STATES
+   ========================= */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+/* =========================
+            Alignement
+   ========================= */
+
+.center{text-align: center;}
+.left{text-align: left;}
+.right{text-align: right;}
+
+/* 
+=================
+BG COLOR
+================
+*/
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* =========================
+   SPACING
+   ========================= */
+
+/* MARGIN */
+
+.m-small {
+    margin: 10px;
+}
+
+.m-medium {
+    margin: 20px;
+}
+
+.m-large {
+    margin: 40px;
+}
+
+
+/* PADDING */
+
+.p-small {
+    padding: 10px;
+}
+
+.p-medium {
+    padding: 20px;
+}
+
+.p-large {
+    padding: 40px;
+}
+
+/* =========================
+   BORDERS
+   ========================= */
+
+.border {
+    border: 2px solid black;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.rounded-large {
+    border-radius: 20px;
+}
+
+/* =========================
+   DISPLAY
+   ========================= */
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* =========================
+   FLEXBOX
+   ========================= */
+
+.flex {
+    display: flex;
+}
+
+.flexRow {
+    flex-direction: row;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyStart {
+    justify-content: flex-start;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.justifyAround {
+    justify-content: space-around;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.alignStart {
+    align-items: flex-start;
+}
+
+.alignEnd {
+    align-items: flex-end;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexNoWrap {
+    flex-wrap: nowrap;
+}
+
+
+/* =========================
+   GAP
+   ========================= */
+
+.gapSmall {
+    gap: 10px;
+}
+
+.gapMedium {
+    gap: 20px;
+}
+
+.gapLarge {
+    gap: 40px;
+}
+
+/* NAVLINK */
+
+.navLink {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.navLink:hover {
+    background-color: gray;
+    color: rgb(57, 54, 54);
+}
