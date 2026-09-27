@@ -257,3 +257,17 @@ BG COLOR
     background-color: gray;
     color: rgb(57, 54, 54);
 }
+
+.basicNavlink {
+  
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration: none;
+    transition: background-color 0.1s, color 0.1s;
+}
+.basicNavlink:hover {
+    background-color: gray;
+    color: rgb(220, 207, 207);
+}
