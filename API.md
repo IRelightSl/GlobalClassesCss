@@ -17,6 +17,14 @@ The code is written like this !
 .bigText {
     font-size: 50px;
 }
+
+.mediumText {
+    font-size: 35px;
+}
+
+.smallText {
+    font-size: 20px;
+}
 ```
 
 
@@ -52,3 +60,37 @@ Blue,
 Yellow,
 White,
 Pink ;***
+
+## Font States
+
+Example:
+
+```html
+<p class="bold">Text</p>
+<p class="italic">Text</p>
+<p class="overline">Text</p>
+<p class="lineTrough">Text</p>
+<p class="underline">Text</p>
+```
+The code is written like this !
+```css
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+```
