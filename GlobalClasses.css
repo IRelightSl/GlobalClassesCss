@@ -419,3 +419,73 @@ BG COLOR
 .noPadding {
     padding: 0;
 }
+
+/* =========================
+   FONT FAMILY TEMPLATES
+   ========================= */
+
+.fontArial {
+    font-family: Arial, sans-serif;
+}
+
+.fontHelvetica {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.fontVerdana {
+    font-family: Verdana, sans-serif;
+}
+
+.fontTahoma {
+    font-family: Tahoma, sans-serif;
+}
+
+.fontTrebuchet {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.fontGeorgia {
+    font-family: Georgia, serif;
+}
+
+.fontTimes {
+    font-family: "Times New Roman", serif;
+}
+
+.fontCourier {
+    font-family: "Courier New", monospace;
+}
+
+.fontImpact {
+    font-family: Impact, sans-serif;
+}
+
+.fontComic {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.fontSystem {
+    font-family: system-ui, sans-serif;
+}
+
+.fontMonospace {
+    font-family: monospace;
+}
+
+.fontSerif {
+    font-family: serif;
+}
+
+.fontSansSerif {
+    font-family: sans-serif;
+}
+
+.fontCursive {
+    font-family: cursive;
+}
+
+.fontFantasy {
+    font-family: fantasy;
+}
+
+
