@@ -271,3 +271,151 @@ BG COLOR
     background-color: gray;
     color: rgb(220, 207, 207);
 }
+
+/* =========================
+   DIMENSIONS
+   ========================= */
+
+.fullWidth {
+    width: 100%;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.widthSmall {
+    width: 25%;
+}
+
+.widthMedium {
+    width: 50%;
+}
+
+.widthLarge {
+    width: 75%;
+}
+
+
+/* =========================
+   CURSOR
+   ========================= */
+
+.pointer {
+    cursor: pointer;
+}
+
+.defaultCursor {
+    cursor: default;
+}
+
+
+/* =========================
+   OPACITY
+   ========================= */
+
+.opacityLow {
+    opacity: 0.5;
+}
+
+.opacityHigh {
+    opacity: 0.8;
+}
+
+
+/* =========================
+   OVERFLOW
+   ========================= */
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.overflowAuto {
+    overflow: auto;
+}
+
+.overflowScroll {
+    overflow: scroll;
+}
+
+
+/* =========================
+   POSITION
+   ========================= */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
+
+/* =========================
+   SHADOW
+   ========================= */
+
+.shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shadowLarge {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* =========================
+   TRANSITIONS
+   ========================= */
+
+.transition {
+    transition: all 0.2s ease;
+}
+
+
+/* =========================
+   TEXT
+   ========================= */
+
+.noTextDecoration {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+/* =========================
+   RESET / LIST
+   ========================= */
+
+.noListStyle {
+    list-style: none;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.noPadding {
+    padding: 0;
+}
