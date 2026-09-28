@@ -1,8 +1,8 @@
-# Official API | Work In Progrss
+# Official API | Work In Progress
 ## Informations
 ***All elements of the GlobalClasses.css file will be written so that you can use them without complication.***
 
-**CLASSES ARE WRITTTEN IN camelCase or with prefixes like "b-blue"**
+**CLASSES ARE WRITTEN IN camelCase or with prefixes like "bg-blue"**
 ## Sizes
 Example :
 
@@ -11,7 +11,7 @@ Example :
 <p class="mediumText">Text</p>
 <p class="smallText">Text</p>
 ```
-The code is written like this ! 
+The CSS code is:
 
 ```css
 .bigText {
@@ -38,7 +38,7 @@ The code is written like this !
 
 ### Small Text
 
-*change the text size to Small (20px)*
+*changes the text size to Small (20px)*
 
 ## Text Colors
 
@@ -53,6 +53,33 @@ Examples :
 <p class="pink">Text</p>
 
 ```
+The CSS code is:
+```css
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.pink {
+    color: pink;
+}
+```
+
 ### Available Colors:
 ***Red,
 Green,
@@ -69,10 +96,10 @@ Example:
 <p class="bold">Text</p>
 <p class="italic">Text</p>
 <p class="overline">Text</p>
-<p class="lineTrough">Text</p>
+<p class="lineThrough">Text</p>
 <p class="underline">Text</p>
 ```
-The code is written like this !
+The CSS code is:
 ```css
 .bold {
     font-weight: bold;
